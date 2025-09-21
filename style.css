@@ -227,14 +227,13 @@ a{
 .slider {
   display: flex;
   width: max-content;
-  animation: scroll 30s linear infinite;
-  will-change:transform;
+  animation: scroll 25s linear infinite;
 }
 
 .slider img {
   width: 250px;  /* adjust size */
   height: auto;
-  margin: 0 2px;
+  margin: 5px 5px;
   border-radius: 12px;
   transition: transform 0.3s ease;
 }
