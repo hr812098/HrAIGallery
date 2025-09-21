@@ -227,7 +227,7 @@ a{
 .slider {
   display: flex;
   width: max-content;
-  animation: scroll 30s linear infinite;
+  animation: scroll 25s linear infinite;
   will-change:transform;
 }
 
@@ -236,7 +236,7 @@ a{
   height: auto;
   margin: 0 2px;
   border-radius: 12px;
-  transition: transform 0.1s ease;
+  transition: transform 0.3s ease;
 }
 
 .slider img:hover {
