@@ -66,12 +66,15 @@ a{
       
     }
 
-.msg{
+.msg>p{
+    -webkit-text-stroke: 1px black;
     position:inherit;
-    color: brown;
+    color:brown;
     text-align: center;
-    font-size: 20px;
-    padding-top: 80px;
+    font-size: 25px;
+    padding-top: 100px;
+    margin-top: 0%;
+    
 }
 .output-box {
   margin: 20px auto;
@@ -224,15 +227,15 @@ a{
 .slider {
   display: flex;
   width: max-content;
-  animation: scroll 25s linear infinite;
+  animation: scroll 20s linear infinite;
 }
 
 .slider img {
   width: 250px;  /* adjust size */
   height: auto;
-  margin: 0 10px;
+  margin: 0 2px;
   border-radius: 12px;
-  transition: transform 0.3s ease;
+  transition: transform 0.1s ease;
 }
 
 .slider img:hover {
@@ -245,7 +248,7 @@ a{
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-40%);
   }
 }
 
@@ -254,7 +257,7 @@ a{
 .animated-text {
   font-size: 22px;
   font-weight: bold;
-  color: brown;
+  color:brown;
   text-align: center;
   padding: 10px 0 20px;
   animation: glow 2s infinite alternate;
