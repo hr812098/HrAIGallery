@@ -236,7 +236,7 @@ a{
   height: auto;
   margin: 5px 5px;
   border-radius: 12px;
-  transition: transform 1s ease;
+  transition: transform 0.1ms ease;
 }
 @media(hover:hover){
 .slider img:hover {
